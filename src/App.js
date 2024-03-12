@@ -38,8 +38,10 @@ function App() {
         <input name='name' type='text' placeholder='name' />
         <input type='submit' />
       </form>
-      <div>{userData?.email}</div>
-      <div>{userData?.name}</div>
+      <div>
+        <div>{userData?.email}</div>
+        <div>{userData?.name}</div>
+      </div>
     </div>
   );
 }
